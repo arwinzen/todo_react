@@ -1,0 +1,38 @@
+input {
+    /* display: block; */
+    padding: 1rem;
+    border: 1px solid rgb(179, 170, 170);
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+
+button {
+    color: ivory;
+    background: linear-gradient(to right, #243B55, #141E30);
+    padding: 1rem;
+    border: 0;
+    border: 2px solid transparent;
+    border-radius: 0 0.3rem 0.3rem 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* two columns for the todo form */ 
+.todo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.todo_list {
+    background: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 600px;
+    margin: 4rem 0;
+}
+
+.todo_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
